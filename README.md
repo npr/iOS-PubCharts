@@ -26,9 +26,9 @@ The constructor accepts a frame, and two NSArrays (one for values, one for color
 
 ## Credits
 
-PubCharts / CrustChart was developed by [Michael Seifollahi](https://github.com/mikeseif) ([@mikeseif](https://twitter.com/mikeseif))
+PubCharts / CrustChart was developed by [Michael Seifollahi](https://github.com/mikeseif) ([@mikeseif](https://twitter.com/mikeseif)).
 
-PubCharts / CrustChart were inspiring by the design explorations of the consumate [Benjamin Dauer](https://github.com/benjamindauer) ([@benjamindauer](https://twitter.com/benjamindauer))
+PubCharts / CrustChart were inspired by the design explorations of the consumate [Benjamin Dauer](https://github.com/benjamindauer) ([@benjamindauer](https://twitter.com/benjamindauer)).
 
 ## Contact
 
