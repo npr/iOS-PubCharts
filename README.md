@@ -18,11 +18,9 @@ The constructor accepts a frame, and two NSArrays (one for values, one for color
 
 ## TODO
 
-This release has little validation, other than converting sums >< 100 to percentages, but future updates will validate the colors parameter has sufficient colors for the segments provided and / or add some automatic color selection.
-
-This has not been tested with transforms / NSLayoutConstraints yet either.
-
-Future additions will include more chart types as time permits.
+* This release has little validation, other than converting sums >< 100 to percentages, but future updates will validate the colors parameter has sufficient colors for the segments provided and / or add some automatic color selection.
+* This has not been tested with transforms / NSLayoutConstraints yet either.
+* Future additions will include more chart types as time permits.
 
 ## Credits
 
@@ -39,4 +37,4 @@ Follow NPR Tech on Twitter ([@NPRTechTeam](https://twitter.com/NPRTechTeam))
 
 ## License
 
-Code is licensed under [MIT License Terms](https://github.com/npr/trove/blob/master/LICENSE).
+Code is licensed under [MIT License Terms](https://github.com/npr/iOS-PubCharts/blob/master/LICENSE).
