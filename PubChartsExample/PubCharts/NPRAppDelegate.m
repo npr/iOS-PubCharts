@@ -14,6 +14,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
     NPRRootViewController *rootVC = [[NPRRootViewController alloc] init];
     
     self.navCon =
