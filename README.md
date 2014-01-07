@@ -3,6 +3,8 @@ iOS-PubCharts
 
 Open source native charting library for iOS.
 
+![Image](https://github.com/npr/iOS-PubCharts/blob/master/ScreenShot.png?raw=true)
+
 This class draws a CrustChart (a pie chart without the center) with supplied values and colors.  The user can tap or swipe around the chart to highlight the individual segments, sending the UIControlEventValueChanged key to the observer.
  
 This was a product of NPR's Serendipity Day #9, for more details on Serendipity Day, checkout http://www.npr.org/blogs/inside/2011/10/14/141312774/happy-accidents-the-joy-of-serendipity-days
