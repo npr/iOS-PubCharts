@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C60972A1875BC4A002905B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6097291875BC4A002905B6 /* Foundation.framework */; };
+		4C60972C1875BC4A002905B6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C60972B1875BC4A002905B6 /* CoreGraphics.framework */; };
+		4C60972E1875BC4A002905B6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C60972D1875BC4A002905B6 /* UIKit.framework */; };
+		4C6097341875BC4A002905B6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C6097321875BC4A002905B6 /* InfoPlist.strings */; };
+		4C6097361875BC4A002905B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6097351875BC4A002905B6 /* main.m */; };
+		4C60973A1875BC4A002905B6 /* NPRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6097391875BC4A002905B6 /* NPRAppDelegate.m */; };
+		4C60973D1875BC4A002905B6 /* NPRRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C60973C1875BC4A002905B6 /* NPRRootViewController.m */; };
+		4C60974B1875BC4A002905B6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C60974A1875BC4A002905B6 /* Images.xcassets */; };
+		4C6097521875BC4A002905B6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6097511875BC4A002905B6 /* XCTest.framework */; };
+		4C6097531875BC4A002905B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6097291875BC4A002905B6 /* Foundation.framework */; };
+		4C6097541875BC4A002905B6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C60972D1875BC4A002905B6 /* UIKit.framework */; };
+		4C60975C1875BC4A002905B6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C60975A1875BC4A002905B6 /* InfoPlist.strings */; };
+		4C60975E1875BC4A002905B6 /* PubChartsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C60975D1875BC4A002905B6 /* PubChartsTests.m */; };
+		4C60976A1875BDC0002905B6 /* NPRCrustChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6097691875BDC0002905B6 /* NPRCrustChart.m */; };
+		4C60976B1875BDC0002905B6 /* NPRCrustChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6097691875BDC0002905B6 /* NPRCrustChart.m */; };
+		4CB1A16A187B0AB400109AFA /* NPRCrustChartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB1A169187B0AB400109AFA /* NPRCrustChartTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C6097551875BC4A002905B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C60971E1875BC4A002905B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C6097251875BC4A002905B6;
+			remoteInfo = PubCharts;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C6097261875BC4A002905B6 /* PubCharts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PubCharts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C6097291875BC4A002905B6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4C60972B1875BC4A002905B6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4C60972D1875BC4A002905B6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4C6097311875BC4A002905B6 /* PubCharts-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PubCharts-Info.plist"; sourceTree = "<group>"; };
+		4C6097331875BC4A002905B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4C6097351875BC4A002905B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C6097371875BC4A002905B6 /* PubCharts-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PubCharts-Prefix.pch"; sourceTree = "<group>"; };
+		4C6097381875BC4A002905B6 /* NPRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NPRAppDelegate.h; sourceTree = "<group>"; };
+		4C6097391875BC4A002905B6 /* NPRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPRAppDelegate.m; sourceTree = "<group>"; };
+		4C60973B1875BC4A002905B6 /* NPRRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NPRRootViewController.h; sourceTree = "<group>"; };
+		4C60973C1875BC4A002905B6 /* NPRRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPRRootViewController.m; sourceTree = "<group>"; };
+		4C60974A1875BC4A002905B6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4C6097501875BC4A002905B6 /* PubChartsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PubChartsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C6097511875BC4A002905B6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4C6097591875BC4A002905B6 /* PubChartsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PubChartsTests-Info.plist"; sourceTree = "<group>"; };
+		4C60975B1875BC4A002905B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4C60975D1875BC4A002905B6 /* PubChartsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PubChartsTests.m; sourceTree = "<group>"; };
+		4C6097681875BDC0002905B6 /* NPRCrustChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NPRCrustChart.h; path = Presentation/NPRCrustChart.h; sourceTree = "<group>"; };
+		4C6097691875BDC0002905B6 /* NPRCrustChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NPRCrustChart.m; path = Presentation/NPRCrustChart.m; sourceTree = "<group>"; };
+		4CB1A169187B0AB400109AFA /* NPRCrustChartTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPRCrustChartTests.m; sourceTree = "<group>"; };
+		4CB1A16C187B0AEF00109AFA /* NPRCrustChart_NPRCrustChartTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NPRCrustChart_NPRCrustChartTests.h; path = Extensions/NPRCrustChart_NPRCrustChartTests.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C6097231875BC4A002905B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C60972C1875BC4A002905B6 /* CoreGraphics.framework in Frameworks */,
+				4C60972E1875BC4A002905B6 /* UIKit.framework in Frameworks */,
+				4C60972A1875BC4A002905B6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C60974D1875BC4A002905B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C6097521875BC4A002905B6 /* XCTest.framework in Frameworks */,
+				4C6097541875BC4A002905B6 /* UIKit.framework in Frameworks */,
+				4C6097531875BC4A002905B6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C60971D1875BC4A002905B6 = {
+			isa = PBXGroup;
+			children = (
+				4C60972F1875BC4A002905B6 /* PubCharts */,
+				4C6097571875BC4A002905B6 /* PubChartsTests */,
+				4C6097281875BC4A002905B6 /* Frameworks */,
+				4C6097271875BC4A002905B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C6097271875BC4A002905B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C6097261875BC4A002905B6 /* PubCharts.app */,
+				4C6097501875BC4A002905B6 /* PubChartsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C6097281875BC4A002905B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C6097291875BC4A002905B6 /* Foundation.framework */,
+				4C60972B1875BC4A002905B6 /* CoreGraphics.framework */,
+				4C60972D1875BC4A002905B6 /* UIKit.framework */,
+				4C6097511875BC4A002905B6 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C60972F1875BC4A002905B6 /* PubCharts */ = {
+			isa = PBXGroup;
+			children = (
+				4C60976C1875BDC7002905B6 /* Presentation */,
+				4C6097381875BC4A002905B6 /* NPRAppDelegate.h */,
+				4C6097391875BC4A002905B6 /* NPRAppDelegate.m */,
+				4C60973B1875BC4A002905B6 /* NPRRootViewController.h */,
+				4C60973C1875BC4A002905B6 /* NPRRootViewController.m */,
+				4C60974A1875BC4A002905B6 /* Images.xcassets */,
+				4C6097301875BC4A002905B6 /* Supporting Files */,
+			);
+			path = PubCharts;
+			sourceTree = "<group>";
+		};
+		4C6097301875BC4A002905B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C6097311875BC4A002905B6 /* PubCharts-Info.plist */,
+				4C6097321875BC4A002905B6 /* InfoPlist.strings */,
+				4C6097351875BC4A002905B6 /* main.m */,
+				4C6097371875BC4A002905B6 /* PubCharts-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C6097571875BC4A002905B6 /* PubChartsTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CB1A16B187B0ACD00109AFA /* Extensions */,
+				4C60975D1875BC4A002905B6 /* PubChartsTests.m */,
+				4C6097581875BC4A002905B6 /* Supporting Files */,
+				4CB1A169187B0AB400109AFA /* NPRCrustChartTests.m */,
+			);
+			path = PubChartsTests;
+			sourceTree = "<group>";
+		};
+		4C6097581875BC4A002905B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C6097591875BC4A002905B6 /* PubChartsTests-Info.plist */,
+				4C60975A1875BC4A002905B6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C6097671875BD80002905B6 /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				4C6097681875BDC0002905B6 /* NPRCrustChart.h */,
+				4C6097691875BDC0002905B6 /* NPRCrustChart.m */,
+			);
+			name = Charts;
+			sourceTree = "<group>";
+		};
+		4C60976C1875BDC7002905B6 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				4C6097671875BD80002905B6 /* Charts */,
+			);
+			name = Presentation;
+			sourceTree = "<group>";
+		};
+		4CB1A16B187B0ACD00109AFA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4CB1A16C187B0AEF00109AFA /* NPRCrustChart_NPRCrustChartTests.h */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C6097251875BC4A002905B6 /* PubCharts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C6097611875BC4A002905B6 /* Build configuration list for PBXNativeTarget "PubCharts" */;
+			buildPhases = (
+				4C6097221875BC4A002905B6 /* Sources */,
+				4C6097231875BC4A002905B6 /* Frameworks */,
+				4C6097241875BC4A002905B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PubCharts;
+			productName = PubCharts;
+			productReference = 4C6097261875BC4A002905B6 /* PubCharts.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C60974F1875BC4A002905B6 /* PubChartsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C6097641875BC4A002905B6 /* Build configuration list for PBXNativeTarget "PubChartsTests" */;
+			buildPhases = (
+				4C60974C1875BC4A002905B6 /* Sources */,
+				4C60974D1875BC4A002905B6 /* Frameworks */,
+				4C60974E1875BC4A002905B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C6097561875BC4A002905B6 /* PBXTargetDependency */,
+			);
+			name = PubChartsTests;
+			productName = PubChartsTests;
+			productReference = 4C6097501875BC4A002905B6 /* PubChartsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C60971E1875BC4A002905B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NPR;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = NPR;
+				TargetAttributes = {
+					4C60974F1875BC4A002905B6 = {
+						TestTargetID = 4C6097251875BC4A002905B6;
+					};
+				};
+			};
+			buildConfigurationList = 4C6097211875BC4A002905B6 /* Build configuration list for PBXProject "PubCharts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C60971D1875BC4A002905B6;
+			productRefGroup = 4C6097271875BC4A002905B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C6097251875BC4A002905B6 /* PubCharts */,
+				4C60974F1875BC4A002905B6 /* PubChartsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C6097241875BC4A002905B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C60974B1875BC4A002905B6 /* Images.xcassets in Resources */,
+				4C6097341875BC4A002905B6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C60974E1875BC4A002905B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C60975C1875BC4A002905B6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C6097221875BC4A002905B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C6097361875BC4A002905B6 /* main.m in Sources */,
+				4C60973A1875BC4A002905B6 /* NPRAppDelegate.m in Sources */,
+				4C60973D1875BC4A002905B6 /* NPRRootViewController.m in Sources */,
+				4C60976A1875BDC0002905B6 /* NPRCrustChart.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C60974C1875BC4A002905B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C60975E1875BC4A002905B6 /* PubChartsTests.m in Sources */,
+				4CB1A16A187B0AB400109AFA /* NPRCrustChartTests.m in Sources */,
+				4C60976B1875BDC0002905B6 /* NPRCrustChart.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C6097561875BC4A002905B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C6097251875BC4A002905B6 /* PubCharts */;
+			targetProxy = 4C6097551875BC4A002905B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C6097321875BC4A002905B6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C6097331875BC4A002905B6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4C60975A1875BC4A002905B6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C60975B1875BC4A002905B6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C60975F1875BC4A002905B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C6097601875BC4A002905B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C6097621875BC4A002905B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PubCharts/PubCharts-Prefix.pch";
+				INFOPLIST_FILE = "PubCharts/PubCharts-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4C6097631875BC4A002905B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PubCharts/PubCharts-Prefix.pch";
+				INFOPLIST_FILE = "PubCharts/PubCharts-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4C6097651875BC4A002905B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PubCharts.app/PubCharts";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PubCharts/PubCharts-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PubChartsTests/PubChartsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4C6097661875BC4A002905B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PubCharts.app/PubCharts";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PubCharts/PubCharts-Prefix.pch";
+				INFOPLIST_FILE = "PubChartsTests/PubChartsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C6097211875BC4A002905B6 /* Build configuration list for PBXProject "PubCharts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C60975F1875BC4A002905B6 /* Debug */,
+				4C6097601875BC4A002905B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C6097611875BC4A002905B6 /* Build configuration list for PBXNativeTarget "PubCharts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C6097621875BC4A002905B6 /* Debug */,
+				4C6097631875BC4A002905B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C6097641875BC4A002905B6 /* Build configuration list for PBXNativeTarget "PubChartsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C6097651875BC4A002905B6 /* Debug */,
+				4C6097661875BC4A002905B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C60971E1875BC4A002905B6 /* Project object */;
+}

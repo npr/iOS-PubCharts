@@ -1,0 +1,32 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+/** Helper method to convert from Hexadecimal color to a UIColor.  Includes
+ * alpha value.
+ *
+ * @param hexadecimal color value in the format 0xabababff
+ *    last 2 hexes are for alpha.
+ * @return UIColor
+ */
+#define HEXCOLOR(c) [UIColor colorWithRed:((c>>24)&0xFF)/255.0 \
+    green:((c>>16)&0xFF)/255.0 \
+    blue:((c>>8)&0xFF)/255.0 \
+    alpha:((c)&0xFF)/255.0]
+
+// NPR Stripe colors for NavigationBar
+#define COLOR_NPR_RED 0xd96d52ff
+#define COLOR_NPR_BLUE 0x6d88beff
