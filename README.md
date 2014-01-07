@@ -7,7 +7,7 @@ This class draws a CrustChart (a pie chart without the center) with supplied val
  
 This was a product of NPR's Serendipity Day #9, for more details on Serendipity Day, checkout http://www.npr.org/blogs/inside/2011/10/14/141312774/happy-accidents-the-joy-of-serendipity-days
 
-##Usage##
+## Usage
 
 The constructor accepts a frame, and two NSArrays (one for values, one for colors).
 
@@ -16,10 +16,27 @@ The constructor accepts a frame, and two NSArrays (one for values, one for color
          withColors:(NSArray *)colors;
 ```
 
-##TODO##
+## TODO
 
 This release has little validation, other than converting sums >< 100 to percentages, but future updates will validate the colors parameter has sufficient colors for the segments provided and / or add some automatic color selection.
 
 This has not been tested with transforms / NSLayoutConstraints yet either.
 
 Future additions will include more chart types as time permits.
+
+## Credits
+
+PubCharts / CrustChart was developed by [Michael Seifollahi](https://github.com/mikeseif)
+
+## Contact
+
+Follow NPR Tech on Twitter ([@NPRTechTeam](https://twitter.com/NPRTechTeam))
+
+#### Maintainers 
+-  [Michael Seifollahi](https://github.com/mikeseif) ([@mikeseif](https://twitter.com/mikeseif))
+
+####
+
+## License
+
+Code is licensed under [MIT License Terms](https://github.com/npr/trove/blob/master/LICENSE).
